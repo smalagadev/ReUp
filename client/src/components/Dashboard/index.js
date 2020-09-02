@@ -11,7 +11,6 @@ class Dashboard extends Component {
             <li><a href="sass.html">Calendar</a></li>
             <li><a href="badges.html">Request Time Off</a></li>
             <li><a href="collapsible.html">Change Availability</a></li>
-            <li><a href="sass.html">Info</a></li>
             <li><a href="collapsible.html">Logout</a></li>
           </ul>
         </div>
