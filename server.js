@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Sample express
 app.get('/', function(req, res){
-  res.send("Wilkommen");
+  res.send("SchedCheck server running.");
 });
 
 // Run server
