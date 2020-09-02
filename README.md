@@ -1,3 +1,8 @@
+SchedCheck is an employee scheduling application that allows employers to create schedules for their employees
+and employees to view their work schedule.
+
+-----------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
