@@ -1,4 +1,5 @@
 import React from 'react';
+import 'materialize-css/dist/css/materialize.min.css';
 import Schedule from './components/Schedule';
 import './App.css';
 
