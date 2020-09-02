@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import WorkDay from "./../WorkDay";
+import Day from "./Day";
 
 class Schedule extends Component{
   render(){
     return(
       <>
         <h1>This is a schedule</h1>
-        <WorkDay />
+        <Day />
       </>
     );
   }
