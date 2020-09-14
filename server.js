@@ -5,7 +5,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Mongoose connection
+mongoose.connect("mongodb://localhost/schedcheck_db");
 
+// Parse
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 // Sample express
 app.get('/', function(req, res){
