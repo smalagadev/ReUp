@@ -5,7 +5,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Mongoose connection
+// Port connection is 27017
 mongoose.connect("mongodb://localhost/schedcheck_db");
+
+//  Mongoose connection messages
+mongoose.connection.once('open', function(){
+  console.log('MongoDB connected');
+}).on('error', function(error){
+  console.log(`Connection Error: ${error}`);
+});
 
 // Parse
 app.use(express.urlencoded({ extended: true }));
